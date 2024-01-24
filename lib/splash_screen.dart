@@ -14,7 +14,9 @@ class SplashScreen extends StatelessWidget
     });
     return  MaterialApp(
       home: Scaffold(
-        body: Image.asset("images/car.png"),
+        backgroundColor: Colors.purpleAccent,
+        body: Center(
+            child: Image.asset("images/car.png")),
       ),
 
     );
